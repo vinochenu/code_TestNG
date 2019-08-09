@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login using Data Provider]">
+  <test name="Test case_login_DataProvider">
+    <classes>
+      <class name="Basic.Suite_Verfication_1"/>
+      <class name="Basic.Suite_Verification_2"/>
+    </classes>
+  </test> <!-- Test case_login_DataProvider -->
+</suite> <!-- Failed suite [Login using Data Provider] -->

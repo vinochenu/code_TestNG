@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite_1" verbose="2" parallel="methods" thread-count="2">
+<test name="Test case_1">
+<listeners>
+<listener class-name="Basic.Listener_Example">
+</listener>
+</listeners>
+<classes>
+<class name="Basic.Listener_Implementation">
+</class>
+</classes>
+</test>
+</suite>
+
+
+
+<!-- <class name="Basic.ArithmeticOperation">
+</class>
+<class name="Basic.Mercury_Homepage">
+</class> -->
+

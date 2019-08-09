@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46" started-at="2019-08-02T20:06:04Z" finished-at="2019-08-02T20:06:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46" started-at="2019-08-02T20:06:04Z" finished-at="2019-08-02T20:06:04Z">
+      <class name="Basic.Annotation_Hierarchy_Example">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeClass1()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeClass1" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="Test" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="Test_1" duration-ms="16" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass1()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterClass1" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass1 -->
+        <test-method status="PASS" signature="Test_2()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="Test_2" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Basic.Annotation_Hierarchy_Example@25618e91]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-08-03T01:36:04Z" finished-at="2019-08-03T01:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Basic.Annotation_Hierarchy_Example -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

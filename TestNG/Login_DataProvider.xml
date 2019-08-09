@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login using Data Provider">
+<test name="Test case_login_DataProvider">
+<classes>
+<class name="Login_Dataprovider.Login_Application_Dataprovider">
+</class>
+</classes>
+</test>
+</suite>

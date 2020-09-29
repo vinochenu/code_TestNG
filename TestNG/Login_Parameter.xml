@@ -5,7 +5,7 @@
 <parameter name="USERNAME" value="abc"/> 
 <parameter name="PASSWORD" value="admin123"/>
 <classes>
-<class name="Login_HomePage.Correct_Password">
+<class name="Login_Parameter_xml.Correct_Password">
 </class>
 </classes>
 </test>
@@ -14,7 +14,7 @@
 <parameter name="USERNAME" value="Admin"/> 
 <parameter name="PASSWORD" value="abc"/>
 <classes>
-<class name="Login_HomePage.Correct_Username">
+<class name="Login_Parameter_xml.Correct_Username">
 </class>
 </classes>
 </test>
@@ -23,7 +23,7 @@
 <parameter name="USERNAME" value="Admin"/> 
 <parameter name="PASSWORD" value="admin123"/>
 <classes>
-<class name="Login_HomePage.Both_correct">
+<class name="Login_Parameter_xml.Both_correct">
 </class>
 </classes>
 </test>
@@ -32,7 +32,7 @@
 <parameter name="USERNAME" value="abc"/> 
 <parameter name="PASSWORD" value="abc"/>
 <classes>
-<class name="Login_HomePage.Both_Incorrect">
+<class name="Login_Parameter_xml.Both_Incorrect">
 </class>
 </classes>
 </test>

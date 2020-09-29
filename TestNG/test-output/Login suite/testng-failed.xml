@@ -7,28 +7,28 @@
     <parameter name="PASSWORD" value="admin123"/>
     <parameter name="USERNAME" value="abc"/>
     <classes>
-      <class name="Login_HomePage.Correct_Password"/>
+      <class name="Login_Parameter_xml.Correct_Password"/>
     </classes>
   </test> <!-- Correct_Password -->
   <test name="Correct_Username">
     <parameter name="PASSWORD" value="abc"/>
     <parameter name="USERNAME" value="Admin"/>
     <classes>
-      <class name="Login_HomePage.Correct_Username"/>
+      <class name="Login_Parameter_xml.Correct_Username"/>
     </classes>
   </test> <!-- Correct_Username -->
   <test name="Both_correct">
     <parameter name="PASSWORD" value="admin123"/>
     <parameter name="USERNAME" value="Admin"/>
     <classes>
-      <class name="Login_HomePage.Both_correct"/>
+      <class name="Login_Parameter_xml.Both_correct"/>
     </classes>
   </test> <!-- Both_correct -->
   <test name="Both_Incorrect">
     <parameter name="PASSWORD" value="abc"/>
     <parameter name="USERNAME" value="abc"/>
     <classes>
-      <class name="Login_HomePage.Both_Incorrect"/>
+      <class name="Login_Parameter_xml.Both_Incorrect"/>
     </classes>
   </test> <!-- Both_Incorrect -->
 </suite> <!-- Failed suite [Login suite] -->

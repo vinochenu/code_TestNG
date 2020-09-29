@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login suite]">
+  <parameter name="PASSWORD" value="abc"/>
+  <parameter name="USERNAME" value="abc"/>
+  <test name="Correct_Password">
+    <parameter name="PASSWORD" value="admin123"/>
+    <parameter name="USERNAME" value="abc"/>
     <classes>
-      <class name="Basic.Annotation_Hierarchy_Example"/>
+      <class name="Login_Parameter_xml.Correct_Password"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Correct_Password -->
+  <test name="Correct_Username">
+    <parameter name="PASSWORD" value="abc"/>
+    <parameter name="USERNAME" value="Admin"/>
+    <classes>
+      <class name="Login_Parameter_xml.Correct_Username"/>
+    </classes>
+  </test> <!-- Correct_Username -->
+  <test name="Both_correct">
+    <parameter name="PASSWORD" value="admin123"/>
+    <parameter name="USERNAME" value="Admin"/>
+    <classes>
+      <class name="Login_Parameter_xml.Both_correct"/>
+    </classes>
+  </test> <!-- Both_correct -->
+  <test name="Both_Incorrect">
+    <parameter name="PASSWORD" value="abc"/>
+    <parameter name="USERNAME" value="abc"/>
+    <classes>
+      <class name="Login_Parameter_xml.Both_Incorrect"/>
+    </classes>
+  </test> <!-- Both_Incorrect -->
+</suite> <!-- Failed suite [Login suite] -->

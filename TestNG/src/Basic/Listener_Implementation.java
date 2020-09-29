@@ -9,11 +9,11 @@ public class Listener_Implementation {
 		System.out.println("class Pass executed");
 	
 	}
-	/*@Test(enabled=false)
+	@Test(enabled=false)
 	public void classSkip() {
 		System.out.println("class Skip executed");
 	
-	}*/
+	}
 	@Test
 	public void classFail() {
 	int a=10;int b=0;
